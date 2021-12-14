@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbasic_grpc_proto.a CMakeFiles/basic_grpc_proto.dir/protos/basicInfoService.grpc.pb.cc.o CMakeFiles/basic_grpc_proto.dir/protos/basicInfoService.pb.cc.o
+/usr/bin/ranlib libbasic_grpc_proto.a

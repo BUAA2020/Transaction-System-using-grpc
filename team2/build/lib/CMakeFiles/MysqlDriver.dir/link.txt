@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMysqlDriver.a CMakeFiles/MysqlDriver.dir/mysqlDriver.cc.o
+/usr/bin/ranlib libMysqlDriver.a

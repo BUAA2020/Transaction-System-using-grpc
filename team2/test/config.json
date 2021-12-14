@@ -1,0 +1,16 @@
+{
+    "call": "myApplication.SeckillService.doSecKill",  
+    "host": "127.0.0.1:50054",                  
+    "proto": "./SecKillService.proto",         
+    "insecure": true,
+    "load-schedule": "const",                                               
+    "concurrency": 30000,                        
+    "concurrency-schedule": "const",            
+    "total": 30000,                              
+    "connections": 1,                             
+    "data": {                
+      "userName": "{{randomInt 1 400}}",                    
+      "passWord": "123456"
+    },
+    "debug": "./debug.json"                       
+  }

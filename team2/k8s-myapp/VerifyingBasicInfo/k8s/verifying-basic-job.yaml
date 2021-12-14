@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: verifying-basic-job
+  namespace: team2
+spec:
+  template:
+    spec:
+      containers:
+        - name: verifying-basic
+          image: yinli2020-docker.pkg.coding.net/beijing-backend/team2/verifying-basic:v0.1
+      restartPolicy: OnFailure
+      imagePullSecrets:
+        - name: yinli-coding-docker-registry
+  backoffLimit: 3  # specify the number of retries
+

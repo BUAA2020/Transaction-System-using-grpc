@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+ba36e4574e779bee50a5af2d884f8acf ../src/basicInfoServer/protos/basicInfoService.pb.cc
+9872b3a47bb080f163f065152fd188a8 ../src/mallServer/protos/MallService.pb.cc
+29f8247811737e9f434d118dc43145fc ../src/seckillServer/protos/SecKillService.pb.cc

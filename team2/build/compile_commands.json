@@ -1,0 +1,187 @@
+[
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/basicInfo.dir/src/basicInfoServer/basicInfoServer.cc.o -c /home/leb/team2/src/basicInfoServer/basicInfoServer.cc",
+  "file": "/home/leb/team2/src/basicInfoServer/basicInfoServer.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/basicInfo.dir/src/bagdao.cc.o -c /home/leb/team2/src/bagdao.cc",
+  "file": "/home/leb/team2/src/bagdao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/basicInfo.dir/src/gooddao.cc.o -c /home/leb/team2/src/gooddao.cc",
+  "file": "/home/leb/team2/src/gooddao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/basicInfo.dir/src/onsalegooddao.cc.o -c /home/leb/team2/src/onsalegooddao.cc",
+  "file": "/home/leb/team2/src/onsalegooddao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/basicInfo.dir/src/tradedao.cc.o -c /home/leb/team2/src/tradedao.cc",
+  "file": "/home/leb/team2/src/tradedao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/basicInfo.dir/src/userdao.cc.o -c /home/leb/team2/src/userdao.cc",
+  "file": "/home/leb/team2/src/userdao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/seckill.dir/src/seckillServer/seckillServer.cc.o -c /home/leb/team2/src/seckillServer/seckillServer.cc",
+  "file": "/home/leb/team2/src/seckillServer/seckillServer.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/seckill.dir/src/seckillServer/Worker.cc.o -c /home/leb/team2/src/seckillServer/Worker.cc",
+  "file": "/home/leb/team2/src/seckillServer/Worker.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/seckill.dir/src/seckillServer/Md5.cc.o -c /home/leb/team2/src/seckillServer/Md5.cc",
+  "file": "/home/leb/team2/src/seckillServer/Md5.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/seckill.dir/src/bagdao.cc.o -c /home/leb/team2/src/bagdao.cc",
+  "file": "/home/leb/team2/src/bagdao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/seckill.dir/src/gooddao.cc.o -c /home/leb/team2/src/gooddao.cc",
+  "file": "/home/leb/team2/src/gooddao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/seckill.dir/src/onsalegooddao.cc.o -c /home/leb/team2/src/onsalegooddao.cc",
+  "file": "/home/leb/team2/src/onsalegooddao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/seckill.dir/src/tradedao.cc.o -c /home/leb/team2/src/tradedao.cc",
+  "file": "/home/leb/team2/src/tradedao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/seckill.dir/src/userdao.cc.o -c /home/leb/team2/src/userdao.cc",
+  "file": "/home/leb/team2/src/userdao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/mall.dir/src/mallServer/mallServer.cc.o -c /home/leb/team2/src/mallServer/mallServer.cc",
+  "file": "/home/leb/team2/src/mallServer/mallServer.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/mall.dir/src/bagdao.cc.o -c /home/leb/team2/src/bagdao.cc",
+  "file": "/home/leb/team2/src/bagdao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/mall.dir/src/gooddao.cc.o -c /home/leb/team2/src/gooddao.cc",
+  "file": "/home/leb/team2/src/gooddao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/mall.dir/src/onsalegooddao.cc.o -c /home/leb/team2/src/onsalegooddao.cc",
+  "file": "/home/leb/team2/src/onsalegooddao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/mall.dir/src/tradedao.cc.o -c /home/leb/team2/src/tradedao.cc",
+  "file": "/home/leb/team2/src/tradedao.cc"
+},
+{
+  "directory": "/home/leb/team2/build",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/mall.dir/src/userdao.cc.o -c /home/leb/team2/src/userdao.cc",
+  "file": "/home/leb/team2/src/userdao.cc"
+},
+{
+  "directory": "/home/leb/team2/build/src/mallServer",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -I/home/leb/team2/src/mallServer/protos -g -std=gnu++11 -o CMakeFiles/mall_grpc_proto.dir/protos/MallService.grpc.pb.cc.o -c /home/leb/team2/src/mallServer/protos/MallService.grpc.pb.cc",
+  "file": "/home/leb/team2/src/mallServer/protos/MallService.grpc.pb.cc"
+},
+{
+  "directory": "/home/leb/team2/build/src/mallServer",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -I/home/leb/team2/src/mallServer/protos -g -std=gnu++11 -o CMakeFiles/mall_grpc_proto.dir/protos/MallService.pb.cc.o -c /home/leb/team2/src/mallServer/protos/MallService.pb.cc",
+  "file": "/home/leb/team2/src/mallServer/protos/MallService.pb.cc"
+},
+{
+  "directory": "/home/leb/team2/build/src/basicInfoServer",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -I/home/leb/team2/src/basicInfoServer/protos -g -std=gnu++11 -o CMakeFiles/basic_grpc_proto.dir/protos/basicInfoService.grpc.pb.cc.o -c /home/leb/team2/src/basicInfoServer/protos/basicInfoService.grpc.pb.cc",
+  "file": "/home/leb/team2/src/basicInfoServer/protos/basicInfoService.grpc.pb.cc"
+},
+{
+  "directory": "/home/leb/team2/build/src/basicInfoServer",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -I/home/leb/team2/src/basicInfoServer/protos -g -std=gnu++11 -o CMakeFiles/basic_grpc_proto.dir/protos/basicInfoService.pb.cc.o -c /home/leb/team2/src/basicInfoServer/protos/basicInfoService.pb.cc",
+  "file": "/home/leb/team2/src/basicInfoServer/protos/basicInfoService.pb.cc"
+},
+{
+  "directory": "/home/leb/team2/build/src/seckillServer",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -I/home/leb/team2/src/seckillServer/protos -I/home/leb/team2/src/seckillServer -g -std=gnu++11 -o CMakeFiles/seckill_grpc_proto.dir/protos/SecKillService.grpc.pb.cc.o -c /home/leb/team2/src/seckillServer/protos/SecKillService.grpc.pb.cc",
+  "file": "/home/leb/team2/src/seckillServer/protos/SecKillService.grpc.pb.cc"
+},
+{
+  "directory": "/home/leb/team2/build/src/seckillServer",
+  "command": "/usr/bin/c++ -DCARES_STATICLIB -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -I/home/leb/team2/src/seckillServer/protos -I/home/leb/team2/src/seckillServer -g -std=gnu++11 -o CMakeFiles/seckill_grpc_proto.dir/protos/SecKillService.pb.cc.o -c /home/leb/team2/src/seckillServer/protos/SecKillService.pb.cc",
+  "file": "/home/leb/team2/src/seckillServer/protos/SecKillService.pb.cc"
+},
+{
+  "directory": "/home/leb/team2/build/lib",
+  "command": "/usr/bin/c++  -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/MysqlDriver.dir/mysqlDriver.cc.o -c /home/leb/team2/lib/mysqlDriver.cc",
+  "file": "/home/leb/team2/lib/mysqlDriver.cc"
+},
+{
+  "directory": "/home/leb/team2/build/lib",
+  "command": "/usr/bin/c++  -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/Mylib.dir/configmodule.cc.o -c /home/leb/team2/lib/configmodule.cc",
+  "file": "/home/leb/team2/lib/configmodule.cc"
+},
+{
+  "directory": "/home/leb/team2/build/lib",
+  "command": "/usr/bin/c++  -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/Mylib.dir/dao.cc.o -c /home/leb/team2/lib/dao.cc",
+  "file": "/home/leb/team2/lib/dao.cc"
+},
+{
+  "directory": "/home/leb/team2/build/lib",
+  "command": "/usr/bin/c++  -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/Mylib.dir/datetime.cc.o -c /home/leb/team2/lib/datetime.cc",
+  "file": "/home/leb/team2/lib/datetime.cc"
+},
+{
+  "directory": "/home/leb/team2/build/lib",
+  "command": "/usr/bin/c++  -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/Mylib.dir/dbmodule.cc.o -c /home/leb/team2/lib/dbmodule.cc",
+  "file": "/home/leb/team2/lib/dbmodule.cc"
+},
+{
+  "directory": "/home/leb/team2/build/lib",
+  "command": "/usr/bin/c++  -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/Mylib.dir/imodule.cc.o -c /home/leb/team2/lib/imodule.cc",
+  "file": "/home/leb/team2/lib/imodule.cc"
+},
+{
+  "directory": "/home/leb/team2/build/lib",
+  "command": "/usr/bin/c++  -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/Mylib.dir/log.cc.o -c /home/leb/team2/lib/log.cc",
+  "file": "/home/leb/team2/lib/log.cc"
+},
+{
+  "directory": "/home/leb/team2/build/lib",
+  "command": "/usr/bin/c++  -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/Mylib.dir/mysqlDriver.cc.o -c /home/leb/team2/lib/mysqlDriver.cc",
+  "file": "/home/leb/team2/lib/mysqlDriver.cc"
+},
+{
+  "directory": "/home/leb/team2/build/lib",
+  "command": "/usr/bin/c++  -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/Mylib.dir/redisDriver.cc.o -c /home/leb/team2/lib/redisDriver.cc",
+  "file": "/home/leb/team2/lib/redisDriver.cc"
+},
+{
+  "directory": "/home/leb/team2/build/lib",
+  "command": "/usr/bin/c++  -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/Mylib.dir/redisdao.cc.o -c /home/leb/team2/lib/redisdao.cc",
+  "file": "/home/leb/team2/lib/redisdao.cc"
+},
+{
+  "directory": "/home/leb/team2/build/lib",
+  "command": "/usr/bin/c++  -I/home/leb/team2/include -I/home/leb/team2/lib -I/home/leb/team2/lib/hiredis -I/home/leb/team2/lib/mysql/include -g -std=gnu++11 -o CMakeFiles/Mylib.dir/value.cc.o -c /home/leb/team2/lib/value.cc",
+  "file": "/home/leb/team2/lib/value.cc"
+}
+]

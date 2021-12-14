@@ -1,0 +1,165 @@
+{
+  "date": "2021-12-01T16:45:08+08:00",
+  "endReason": "normal",
+  "options": {
+    "call": "myApplication.BasicInfoService.doLogin",
+    "host": "127.0.0.1:50051",
+    "proto": "./basicInfoService.proto",
+    "import-paths": [
+      "."
+    ],
+    "insecure": true,
+    "load-schedule": "const",
+    "load-start": 0,
+    "load-end": 0,
+    "load-step": 0,
+    "load-step-duration": 0,
+    "load-max-duration": 0,
+    "concurrency": 1,
+    "concurrency-schedule": "const",
+    "concurrency-start": 1,
+    "concurrency-end": 0,
+    "concurrency-step": 0,
+    "concurrency-step-duration": 0,
+    "concurrency-max-duration": 0,
+    "total": 5,
+    "connections": 1,
+    "timeout": 20000000000,
+    "dial-timeout": 10000000000,
+    "data": {
+      "passWord": "123456",
+      "userName": "kxz"
+    },
+    "binary": false,
+    "CPUs": 2
+  },
+  "count": 5,
+  "total": 6177228,
+  "average": 880497,
+  "fastest": 614348,
+  "slowest": 1733935,
+  "rps": 809.4245509474476,
+  "errorDistribution": {},
+  "statusCodeDistribution": {
+    "OK": 5
+  },
+  "latencyDistribution": [
+    {
+      "percentage": 10,
+      "latency": 614348
+    },
+    {
+      "percentage": 25,
+      "latency": 644433
+    },
+    {
+      "percentage": 50,
+      "latency": 681256
+    },
+    {
+      "percentage": 75,
+      "latency": 728518
+    },
+    {
+      "percentage": 90,
+      "latency": 1733935
+    },
+    {
+      "percentage": 95,
+      "latency": 1733935
+    },
+    {
+      "percentage": 99,
+      "latency": 1733935
+    }
+  ],
+  "histogram": [
+    {
+      "mark": 0.000614348,
+      "count": 1,
+      "frequency": 0.2
+    },
+    {
+      "mark": 0.0007263067,
+      "count": 2,
+      "frequency": 0.4
+    },
+    {
+      "mark": 0.0008382654000000001,
+      "count": 1,
+      "frequency": 0.2
+    },
+    {
+      "mark": 0.0009502241,
+      "count": 0,
+      "frequency": 0
+    },
+    {
+      "mark": 0.0010621828,
+      "count": 0,
+      "frequency": 0
+    },
+    {
+      "mark": 0.0011741415,
+      "count": 0,
+      "frequency": 0
+    },
+    {
+      "mark": 0.0012861002,
+      "count": 0,
+      "frequency": 0
+    },
+    {
+      "mark": 0.0013980589,
+      "count": 0,
+      "frequency": 0
+    },
+    {
+      "mark": 0.0015100176,
+      "count": 0,
+      "frequency": 0
+    },
+    {
+      "mark": 0.0016219763,
+      "count": 0,
+      "frequency": 0
+    },
+    {
+      "mark": 0.001733935,
+      "count": 1,
+      "frequency": 0.2
+    }
+  ],
+  "details": [
+    {
+      "timestamp": "2021-12-01T16:45:08.51492824+08:00",
+      "latency": 1733935,
+      "error": "",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2021-12-01T16:45:08.515891653+08:00",
+      "latency": 728518,
+      "error": "",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2021-12-01T16:45:08.516825096+08:00",
+      "latency": 644433,
+      "error": "",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2021-12-01T16:45:08.517817463+08:00",
+      "latency": 681256,
+      "error": "",
+      "status": "OK"
+    },
+    {
+      "timestamp": "2021-12-01T16:45:08.518675336+08:00",
+      "latency": 614348,
+      "error": "",
+      "status": "OK"
+    }
+  ]
+}

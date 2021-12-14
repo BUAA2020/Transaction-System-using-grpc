@@ -1,0 +1,17 @@
+{
+  "call": "myApplication.BasicInfoService.doRegister",
+  "host": "127.0.0.1:50054",
+  "proto": "./basicInfoService.proto",
+  "insecure": true,
+  "load-schedule": "const",
+  "concurrency": 2,
+  "concurrency-schedule": "const",
+  "total": 10,
+  "connections": 1,
+  "data": {
+    "userName": "{{randomString 3 }}",
+    "passWord": "123456",
+    "groupid": 1
+  },
+  "debug": "./debug.json"
+}

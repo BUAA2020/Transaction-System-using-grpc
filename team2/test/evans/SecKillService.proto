@@ -1,0 +1,21 @@
+syntax ="proto3";
+
+package myApplication;
+
+
+message SecKillReq{
+    string userName = 1;
+    string passWord = 2;
+}
+
+message SecKillRsq{
+    int32 status  = 1;
+    string message = 2;
+}
+
+
+service SeckillService{
+    rpc doSecKill (SecKillReq) returns (SecKillRsq){}
+
+}
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmall_grpc_proto.a CMakeFiles/mall_grpc_proto.dir/protos/MallService.grpc.pb.cc.o CMakeFiles/mall_grpc_proto.dir/protos/MallService.pb.cc.o
+/usr/bin/ranlib libmall_grpc_proto.a

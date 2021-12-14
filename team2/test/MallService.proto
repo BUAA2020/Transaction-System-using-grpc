@@ -1,0 +1,98 @@
+syntax ="proto3";
+
+package myApplication;
+
+message SearchOnSaleGoodsReq{
+    string goodName = 1;
+}
+
+message SearchOnSaleGoodsRsq{
+    int32 status  = 1;
+    string message = 2;
+    message goods{
+        int64 goodid = 1;
+        string goodname =  2;
+        int64 tradeAmount = 3;
+        int64 userid = 4;
+        int64 num = 5;
+        int64 storeid = 6;
+    }
+    repeated goods good = 3;  
+}
+
+message ListSpecialGoodReq{
+    int32 SpecailNum = 1;
+}
+
+message ListSpecialGoodRsq{
+    int32 status  = 1; 
+    string message = 2;
+    message goods{
+        int64 goodid = 1;
+        string goodname =  2;
+        int64 tradeAmount = 3;
+        int64 userid = 4;
+    }
+    repeated goods good = 3;  
+}
+
+message PurchaseReq{
+    int64 goodid = 1;
+    int64 money = 2;
+    int64 id = 3;
+    int64 num = 4;
+    int32 goodSpecial = 5; 
+    int64 salerid = 6;
+}
+
+message PurchaseRsq{
+    int32 status  = 1;
+    string message = 2;
+}
+
+message ManageTradesReq{
+    int64 userid = 1;
+    optional int64 goodid = 2;
+}
+
+message ManageTradesRsq{
+    int32 status = 1;
+    string message = 2;
+    message trade{
+        int64 tradeid =1;
+        int32 kind =2;
+        int64 goodid =3;
+        int64 userid = 4;
+        string tradeTime = 5;
+        int64 tradeMoney = 6;
+    }
+    repeated trade trades =3;
+}
+
+
+message SaleReq{
+    int64 goodid = 1;
+    int64 money = 2;
+    int64 id = 3;
+    int32 kind  = 4;// 1: 上架 2: 下架 
+    int64 num = 5;
+    int32 goodSpecial = 6; 
+
+
+}
+
+message SaleRsq{
+    int32 status  = 1;
+    string message = 2;
+}
+
+
+
+service MallService{
+    rpc doSearchOnSaleGoods (SearchOnSaleGoodsReq) returns (SearchOnSaleGoodsRsq){}
+    rpc doListSpecialGood (ListSpecialGoodReq) returns (ListSpecialGoodRsq){}
+    rpc doPurchase (PurchaseReq) returns (PurchaseRsq){}
+    rpc doManageTrades (ManageTradesReq) returns (ManageTradesRsq){}
+    rpc doSale (SaleReq) returns (SaleRsq){}
+}
+

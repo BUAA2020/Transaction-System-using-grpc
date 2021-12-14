@@ -1,0 +1,185 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						4,
+						6
+					]
+				},
+				{
+					"build" : "src/mallServer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/mallServer",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/basicInfoServer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/basicInfoServer",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/seckillServer",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/seckillServer",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "lib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "Service",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Mylib::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-Mylib-Debug-bd2f5427f9eb8f1e9a79.json",
+					"name" : "Mylib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "MysqlDriver::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-MysqlDriver-Debug-25257c9c1883cb5cbf15.json",
+					"name" : "MysqlDriver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "basicInfo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-basicInfo-Debug-33a3fbb52e9fe87809f1.json",
+					"name" : "basicInfo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "basic_grpc_proto::@c6f90a06666a821ba8c4",
+					"jsonFile" : "target-basic_grpc_proto-Debug-93fffce77cf35ced514b.json",
+					"name" : "basic_grpc_proto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mall-Debug-74b8fdad9ca95d151a45.json",
+					"name" : "mall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mall_grpc_proto::@2554273bb7cc0128d156",
+					"jsonFile" : "target-mall_grpc_proto-Debug-78ceab21a4dba1b772f0.json",
+					"name" : "mall_grpc_proto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "seckill::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-seckill-Debug-2d1b075b77818462129c.json",
+					"name" : "seckill",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "seckill_grpc_proto::@0d5204cb38bde071bc40",
+					"jsonFile" : "target-seckill_grpc_proto-Debug-32046625924ac89350de.json",
+					"name" : "seckill_grpc_proto",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/leb/team2/build",
+		"source" : "/home/leb/team2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libseckill_grpc_proto.a CMakeFiles/seckill_grpc_proto.dir/protos/SecKillService.grpc.pb.cc.o CMakeFiles/seckill_grpc_proto.dir/protos/SecKillService.pb.cc.o
+/usr/bin/ranlib libseckill_grpc_proto.a

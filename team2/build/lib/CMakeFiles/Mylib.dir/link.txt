@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMylib.a CMakeFiles/Mylib.dir/configmodule.cc.o CMakeFiles/Mylib.dir/dao.cc.o CMakeFiles/Mylib.dir/datetime.cc.o CMakeFiles/Mylib.dir/dbmodule.cc.o CMakeFiles/Mylib.dir/imodule.cc.o CMakeFiles/Mylib.dir/log.cc.o CMakeFiles/Mylib.dir/mysqlDriver.cc.o CMakeFiles/Mylib.dir/redisDriver.cc.o CMakeFiles/Mylib.dir/redisdao.cc.o CMakeFiles/Mylib.dir/value.cc.o
+/usr/bin/ranlib libMylib.a

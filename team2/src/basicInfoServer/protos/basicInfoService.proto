@@ -1,0 +1,96 @@
+syntax ="proto3";
+
+package myApplication;
+
+message loginReq{
+    string userName = 1;
+    string passWord = 2;
+}
+
+message loginRsq{
+    int32 groupid = 1;
+    int32 status  = 2;
+    string message = 3;
+    int64 id = 4;
+}
+
+message registerReq{
+    string userName = 1;
+    string passWord = 2;
+    int32 groupid = 3;
+}
+
+message registerRsq{
+    int32 status  = 1;
+    string message = 2;
+    int64 id = 3;
+}
+
+message modifyUserReq{
+    string userName = 1;
+    string passWord = 2;
+    optional int64 money = 3;
+}
+
+message modifyUserRsq{
+    int32 status  = 1;
+    string message = 2;
+}
+
+message searchUserReq{
+    int64 id = 1;
+}
+message searchUserRsq{
+    int32 status  = 1;
+    string message = 2;
+    message baggood {
+        int64 goodid = 1;
+        string goodname = 2;
+        int64 number = 3;
+    }
+    repeated baggood good = 3;
+    int64 money = 4;
+    string name = 5;
+}
+
+
+message modifyGoodReq{
+    string goodName = 1;
+    optional string kind = 2;
+    optional int32 level = 3;
+    optional string career = 4;
+    optional int32 grade = 5;
+    optional int32 color = 6;
+}
+
+message modifyGoodRsq{
+    int32 status  = 1;
+    string message = 2;
+    int64 id = 3;
+}
+
+
+message searchGoodReq{
+    int64 id = 1;
+}
+
+message searchGoodRsq{
+    int32 status  = 1;
+    string message = 2;
+    string goodName = 3;
+    string kind = 4;
+    int32 level = 5;
+    string career = 6;
+    int32 grade = 7;
+    int32 color = 8;
+}
+
+service BasicInfoService{
+    rpc doLogin (loginReq) returns (loginRsq){}
+    rpc doRegister (registerReq) returns (registerRsq){}
+    rpc doModifyUserInfo (modifyUserReq) returns (modifyUserRsq){}
+    rpc doSearchUserInfo (searchUserReq) returns (searchUserRsq){}
+    rpc doModifyGoodInfo (modifyGoodReq) returns (modifyGoodRsq){}
+    rpc doSearchGoodInfo (searchGoodReq) returns (searchGoodRsq){}
+}
+

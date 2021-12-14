@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: verifying-mall-job
+  namespace: team2
+spec:
+  template:
+    spec:
+      containers:
+        - name: verifying-mall
+          image: yinli2020-docker.pkg.coding.net/beijing-backend/team2/verifying-mall:v0.1
+      restartPolicy: OnFailure
+      imagePullSecrets:
+        - name: yinli-coding-docker-registry
+  backoffLimit: 3  # specify the number of retries
+
